@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1144
+
 # Escreva um programa que leia um valor inteiro N. N * 2 linhas de saída serão apresentadas na execução do programa, seguindo a lógica do exemplo abaixo. Para valores com mais de 6 dígitos, todos os dígitos devem ser apresentados.
 
 # Entrada
@@ -6,24 +8,24 @@
 # Saída
 # Imprima a saída conforme o exemplo fornecido.
 
-n = int(input())
-n *= 2
-x = y = z = 1
+def main() -> None:
 
-# x = 1 a cada impar
-# y = +1 no par e +i -1 no impar
-# z = x * y no impar z = z+1 no par
+    n = int(input())
+    n *= 2
+    x = y = z = 1
 
-for i in range(1, n + 1):
-    if i % 2 == 1 and i != 1:
-        y += i - 1
-        x += 1
-        z = x * y
+    for i in range(1, n + 1):
+        if i % 2 == 1 and i != 1:
+            y += i - 1
+            x += 1
+            z = x * y
 
-    if i % 2 == 0:
-        y += 1
-        z += 1
+        if i % 2 == 0:
+            y += 1
+            z += 1
 
-    print(x, y, z)
+        print(x, y, z)
 
-# COMPLEXO PRA CARALHO MSM
+
+if __name__ == "__main__":
+    main()

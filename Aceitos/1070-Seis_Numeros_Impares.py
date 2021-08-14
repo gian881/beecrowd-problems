@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1070
+
 # Leia um valor inteiro X. Em seguida apresente os 6 valores ímpares consecutivos a partir de X, um valor por linha, inclusive o X ser for o caso.
 
 # Entrada
@@ -6,7 +8,13 @@
 # Saída
 # A saída será uma sequência de seis números ímpares.
 
-x = int(input())
-for i in range(x, 12 + x):
-    if i % 2 != 0:
-        print(i)
+def main() -> None:
+
+    x = int(input())
+    for i in range(x, 12 + x):
+        if i % 2 != 0:
+            print(i)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,11 +1,28 @@
-c = int(input())
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1865
 
-for i in range(c):
-    a = input().strip().split()
+# Odin criou para Thor a mais fiel e poderosa arma possível, o martelo Mjölnir. Feito de um minério místico especial chamado Uru e forjado no coração de uma estrela pelos Deuses ferreiros de Asgard, Brokk e Eitri, os lendários ferreiros.
+# Um dia, Thor desafiou seus amigos para ver quem conseguia levantar o Mjölnir.
+# Escreva um programa que, dado um nome, e a força, em Newtons, aplicado ao tentar levantar o Mjölnir, informar se a pessoa conseguiu ou não levantá-lo.
 
-    nome = a[0]
+# Entrada
+# Um número inteiro C será informado, que será a quantidade de casos de teste. Cada caso de teste inicia com uma palavra, que é o primeiro nome de quem está tentando levantar o Mjölnir, e um inteiro N (1 ≤ N ≤ 25000), indicando a força aplicada para cima, em Newtons, ao puxar o martelo, de modo a tentar levantá-lo.
 
-    if nome == 'Thor':
-        print('Y')
-    else:
-        print('N')
+# Saída
+# Para cada caso de teste imprima um caractere ‘Y’, caso a pessoa tenha conseguido levantar , ou ‘N’, caso não tenha conseguido.
+
+def main() -> None:
+    c = int(input())
+
+    for _ in range(c):
+        a = input().strip().split()
+
+        nome = a[0]
+
+        if nome == 'Thor':
+            print('Y')
+        else:
+            print('N')
+
+
+if __name__ == "__main__":
+    main()

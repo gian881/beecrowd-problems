@@ -1,8 +1,24 @@
-n = int(input())
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1759
 
-for i in range(n):
-    if i == n - 1:
-        print('Ho', end='!')
-    else:
-        print('Ho', end=' ')
-print()
+# Papai Noel está brincando com seus duendes para entretê-los durante a véspera do Natal. A brincadeira consiste nos elfos escreverem números em pedaços de papel e colocarem no gorro do Papai Noel. Após todos terminarem de colocar os números Noel sorteia um papel e aquele número representa quantos "Ho" o Noel deve falar.
+# Seu trabalho é ajudar o Papai Noel montando um problema que mostre todos os "Ho" que ele deve falar dado o número sorteado.
+
+# Entrada
+# A entrada é composta por um único inteiro N (0 < N ≤ 106) representando quantos "Ho" serão falados por Noel.
+
+# Saída
+# A saída é composta por todos "Ho" que Papai Noel deve falar separados por um espaço. Após o último "Ho" deve ser apresentado um "!" encerrando o programa.
+
+def main() -> None:
+    n = int(input())
+
+    for i in range(n):
+        if i == n - 1:
+            print('Ho', end='!')
+        else:
+            print('Ho', end=' ')
+    print()
+
+
+if __name__ == "__main__":
+    main()

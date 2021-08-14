@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1113
+
 # Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
 
 # Entrada
@@ -6,16 +8,22 @@
 # Saída
 # Para cada caso de teste imprima “Crescente”, caso os valores tenham sido digitados na ordem crescente, caso contrário imprima a mensagem “Decrescente”.
 
-while True:
-    valores = input().strip().split()
+def main() -> None:
 
-    x = int(valores[0])
-    y = int(valores[1])
+    while True:
+        valores = input().strip().split()
 
-    if x == y:
-        break
+        x = int(valores[0])
+        y = int(valores[1])
 
-    if x < y:
-        print('Crescente')
-    else:
-        print('Decrescente')
+        if x == y:
+            break
+
+        if x < y:
+            print('Crescente')
+        else:
+            print('Decrescente')
+
+
+if __name__ == "__main__":
+    main()

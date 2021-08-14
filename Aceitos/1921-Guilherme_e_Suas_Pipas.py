@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1921
+
 # Guilherme adora brincar com pipas, pipas de várias cores, formas e tamanhos. Ele tem percebido que para as pipas possuírem maior estabilidade, e dessa forma voarem mais alto, elas devem possuir um barbante bem esticado ligando todos os pares de pontas não vizinhas.
 # Apesar de ser uma criança bastante criativa e astuta, Guilherme não sabe como determinar a quantidade de barbantes que ele terá que utilizar para tornar uma pipa de n lados, estável. Você pode ajudá-lo?.
 
@@ -7,8 +9,11 @@
 # Saída
 # Imprima um número inteiro, que será a quantidade de barbantes que Guilherme terá que utilizar para tornar a pipa de n lados estável.
 
-n = int(input())
+def main() -> None:
+    n = int(input())
+    d = int((n * (n - 3)) / 2)
+    print(d)
 
-d = int((n * (n - 3)) / 2)
 
-print(d)
+if __name__ == "__main__":
+    main()

@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1101
+
 # Leia um conjunto não determinado de pares de valores M e N (parar quando algum dos valores for menor ou igual a zero). Para cada par lido, mostre a sequência do menor até o maior e a soma dos inteiros consecutivos entre eles (incluindo o N e M).
 
 # Entrada
@@ -6,21 +8,27 @@
 # Saída
 # Para cada dupla de valores, imprima a sequência do menor até o maior e a soma deles, conforme exemplo abaixo.
 
-while True:
-    valores = input().strip().split()
+def main() -> None:
 
-    m = int(valores[0])
-    n = int(valores[1])
+    while True:
+        valores = input().strip().split()
 
-    if m == 0 or n == 0 or m < 0 or n < 0:
-        break
+        m = int(valores[0])
+        n = int(valores[1])
 
-    lista = [m, n]
-    lista = sorted(lista)
+        if m == 0 or n == 0 or m < 0 or n < 0:
+            break
 
-    soma = 0
+        lista = [m, n]
+        lista = sorted(lista)
 
-    for i in range(lista[0], lista[1] + 1):
-        print(i, end=' ')
-        soma += i
-    print('Sum={}' .format(soma))
+        soma = 0
+
+        for i in range(lista[0], lista[1] + 1):
+            print(i, end=' ')
+            soma += i
+        print('Sum={}' .format(soma))
+
+
+if __name__ == "__main__":
+    main()

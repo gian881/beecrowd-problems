@@ -1,4 +1,8 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1013
+
 # Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”.
+# Utilize a fórmula:
+# https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1013.png
 
 # Entrada
 # O arquivo de entrada contém três valores inteiros.
@@ -6,15 +10,11 @@
 # Saída
 # Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
-valores = input().strip().split()
+def main() -> None:
+    maior: int = max(int(valor) for valor in input().strip().split())
 
-a = int(valores[0])
-b = int(valores[1])
-c = int(valores[2])
+    print(f'{maior} eh o maior')
 
-maior = a
-if b > maior:
-    maior = b
-elif c > maior:
-    maior = c
-print('{} eh o maior' .format(maior))
+
+if __name__ == "__main__":
+    main()

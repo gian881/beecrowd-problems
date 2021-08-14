@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1012
+
 # Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
 # a) a área do triângulo retângulo que tem A por base e C por altura.
 # b) a área do círculo de raio C. (pi = 3.14159)
@@ -10,21 +12,28 @@
 
 # Saída
 # O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
-valores = input().strip()
-lista = valores.split()
 
-A = float(lista[0])
-B = float(lista[1])
-C = float(lista[2])
+def main() -> None:
 
-triangulo = (A * C) / 2
-circulo = 3.14159 * C**2
-trapezio = ((A + B) * C) / 2
-quadrado = B**2
-retangulo = A * B
+    valores = input().strip()
+    lista = valores.split()
 
-print('TRIANGULO: {:.3f}' .format(triangulo))
-print('CIRCULO: {:.3f}' .format(circulo))
-print('TRAPEZIO: {:.3f}' .format(trapezio))
-print('QUADRADO: {:.3f}' .format(quadrado))
-print('RETANGULO: {:.3f}' .format(retangulo))
+    A = float(lista[0])
+    B = float(lista[1])
+    C = float(lista[2])
+
+    triangulo = (A * C) / 2
+    circulo = 3.14159 * C**2
+    trapezio = ((A + B) * C) / 2
+    quadrado = B**2
+    retangulo = A * B
+
+    print('TRIANGULO: {:.3f}' .format(triangulo))
+    print('CIRCULO: {:.3f}' .format(circulo))
+    print('TRAPEZIO: {:.3f}' .format(trapezio))
+    print('QUADRADO: {:.3f}' .format(quadrado))
+    print('RETANGULO: {:.3f}' .format(retangulo))
+
+
+if __name__ == "__main__":
+    main()

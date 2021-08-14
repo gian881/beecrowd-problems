@@ -1,3 +1,5 @@
+# https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
+
 # Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
 
 # Entrada
@@ -6,14 +8,20 @@
 # Saída
 # Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
 
-lista = []
-maior = 0
+def main() -> None:
 
-for i in range(0, 100):
-    a = int(input())
-    if a > maior:
-        maior = a
-    lista.append(a)
+    lista = []
+    maior = 0
 
-print(maior)
-print(lista.index(maior) + 1)
+    for i in range(0, 100):
+        a = int(input())
+        if a > maior:
+            maior = a
+        lista.append(a)
+
+    print(maior)
+    print(lista.index(maior) + 1)
+
+
+if __name__ == "__main__":
+    main()
