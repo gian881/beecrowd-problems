@@ -12,11 +12,17 @@
 # Saída
 # Na saída você deve imprimir para cada linha o caractere 'Y' caso seja possível atingir o invasor ou 'N' caso contrário, ambos seguidos de uma quebra de linha.
 
+from math import sqrt
+
+
 def main() -> None:
     while True:
         try:
             x_fiddle, y_fiddle, x_inimigo, y_inimigo, vel_inimigo, r_conj, r_ult = [
                 int(valor) for valor in input().split()]
+            distancia = sqrt(((x_fiddle-x_inimigo)**2) +
+                             ((y_fiddle-y_inimigo)**2)) + vel_inimigo * 1.5
+            print('Y' if r_conj + r_ult >= distancia else 'N')
         except EOFError:
             break
 
