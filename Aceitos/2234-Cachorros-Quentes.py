@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/2234
+# https://www.beecrowd.com.br/judge/pt/problems/view/2234
 
 # Em 2012 foi alcançado um novo recorde mundial na famosa Competição de Cachorros-Quentes do Nathan: o campeão, Joey Chestnut, devorou 68 cachorros-quentes em dez minutos, um aumento
 # incrível em relação aos 62 sanduíches devorados pelo mesmo Chestnut em 2011.

@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1000
+# https://www.beecrowd.com.br/judge/pt/problems/view/1000
 
 # https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1000.png
 # Bem-vindo ao URI Online Judge!

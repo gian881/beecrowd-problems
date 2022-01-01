@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1178
+# https://www.beecrowd.com.br/judge/pt/problems/view/1178
 
 # Leia um valor X. Coloque este valor na primeira posição de um vetor N[100].
 # Em cada posição subsequente de N (1 até 99), coloque a metade do valor

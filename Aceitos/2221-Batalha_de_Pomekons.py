@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/2221
+# https://www.beecrowd.com.br/judge/pt/problems/view/2221
 
 # Depois de capturar muitos Pomekons, Dabriel e Guarte resolveram batalhar. A forma de duelo é simples, cada treinador coloca um Pomekon na batalha e vence quem tem o Pomekon com maior valor de golpe, que é definido da seguinte maneira:
 # https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_2221.png

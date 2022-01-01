@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1066
+# https://www.beecrowd.com.br/judge/pt/problems/view/1066
 
 # Leia 5 valores Inteiros. A seguir mostre quantos valores digitados
 # foram pares, quantos valores digitados foram ímpares, quantos valores

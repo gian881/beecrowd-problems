@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1045
+# https://www.beecrowd.com.br/judge/pt/problems/view/1045
 
 # Leia 3 valores de ponto flutuante A, B e C  e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo uma mensagem adequada:
 # se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO

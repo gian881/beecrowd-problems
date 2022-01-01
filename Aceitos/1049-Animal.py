@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1049
+# https://www.beecrowd.com.br/judge/pt/problems/view/1049
 
 # Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
 # https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1049_b.png

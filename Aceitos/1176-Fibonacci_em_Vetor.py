@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1176
+# https://www.beecrowd.com.br/judge/pt/problems/view/1176
 
 # Faça um programa que leia um valor e apresente o número de Fibonacci correspondente a este valor lido.
 # Lembre que os 2 primeiros elementos da série de Fibonacci são 0 e 1 e cada próximo termo é a soma dos 2 anteriores a ele.

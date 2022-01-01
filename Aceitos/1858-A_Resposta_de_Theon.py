@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1858
+# https://www.beecrowd.com.br/judge/pt/problems/view/1858
 
 # Ramsay: "(...) você vence se conseguir adivinhar quem eu sou e por que estou torturando você."
 # Theon deve pensar rápido e adivinhar quem é seu algoz! Entretanto, Ramsay já decidiu o que ele irá fazer depois que Theon der sua resposta.

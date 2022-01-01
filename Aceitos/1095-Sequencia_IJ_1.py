@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1095
+# https://www.beecrowd.com.br/judge/pt/problems/view/1095
 
 # Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 

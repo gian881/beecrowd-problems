@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1064
+# https://www.beecrowd.com.br/judge/pt/problems/view/1064
 
 # Leia 6 valores. Em seguida, mostre quantos destes valores digitados
 # foram positivos. Na próxima linha, deve-se mostrar a média de todos os

@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1059
+# https://www.beecrowd.com.br/judge/pt/problems/view/1059
 
 # Faça um programa que mostre os números pares entre 1 e 100, inclusive.
 

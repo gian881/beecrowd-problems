@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1828
+# https://www.beecrowd.com.br/judge/pt/problems/view/1828
 
 # No oitavo episodio da segunda temporada do seriado The Big Bang
 # Theory, The Lizard-Spock Expansion, Sheldon e Raj discutem qual

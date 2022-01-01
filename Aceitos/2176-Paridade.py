@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/2176
+# https://www.beecrowd.com.br/judge/pt/problems/view/2176
 
 # A popularização das redes WiFi aumentou a taxa de perda de informações sendo transferidas, uma vez que diversos fatores do meio ambiente podem facilmente comprometer os dados durante o tráfego. A URI, Unidade de Recuperação de Informações, tem como principal objetivo identificar e corrigir erros em mensagens enviadas via redes WiFi.
 # A técnica utilizada pela URI para identificação de erros é o teste de paridade, o qual pode ser descrito da seguinte forma: Seja S uma mensagem que será enviada de um dispositivo para outro. Antes de S ser enviada, um bit extra B é adicionado no final da representação binária de S. Se a mensagem S tiver um número par de bits de valor 1, o bit extra B terá valor 0. Caso contrário, se S tiver um número ímpar de bits de valor 1, B terá valor 1. Desta forma, após a inserção do bit B, a mensagem S terá um número par de bits de valor 1.

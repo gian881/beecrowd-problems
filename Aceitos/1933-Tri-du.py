@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1933
+# https://www.beecrowd.com.br/judge/pt/problems/view/1933
 
 # Tri-du é um jogo de cartas derivado do popular jogo de Truco. O jogo utiliza um baralho normal de 52 cartas, com treze cartas de cada naipe, mas os naipes são ignorados. Apenas o valor das cartas,considerados como inteiros de 1 a 13, são utilizados.
 # No jogo, cada jogador recebe três cartas. As regras são simples:
@@ -15,7 +15,7 @@
 # Seu programa deve produzir uma única linha com um inteiro representando o valor da carta que maximiza a probabilidade de o jogador ganhar a partida.
 
 def main() -> None:
-    pass
+    print(max(int(x) for x in input().split()))
 
 
 if __name__ == "__main__":

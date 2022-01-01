@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1134
+# https://www.beecrowd.com.br/judge/pt/problems/view/1134
 
 # Um Posto de combustíveis deseja determinar qual de seus produtos tem a
 # preferência de seus clientes. Escreva um algoritmo para ler o tipo de

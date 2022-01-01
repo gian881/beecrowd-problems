@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/2159
+# https://www.beecrowd.com.br/judge/pt/problems/view/2159
 
 # Schoenfeld e Rosser publicaram em 1962 um artigo descrevendo um valor mínimo e máximo para a quantidade de números primos até n, para n ≥ 17. Esta quantidade é representada pela função (n) e a fórmula é mostrada abaixo.
 # https://resources.urionlinejudge.com.br/gallery/images/contests/931.png

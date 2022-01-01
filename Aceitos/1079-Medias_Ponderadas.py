@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1079
+# https://www.beecrowd.com.br/judge/pt/problems/view/1079
 
 # Leia 1 valor inteiro N, que representa o número de casos de teste que
 # vem a seguir. Cada caso de teste consiste de 3 valores reais, cada um

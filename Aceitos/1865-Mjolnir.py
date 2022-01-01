@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1865
+# https://www.beecrowd.com.br/judge/pt/problems/view/1865
 
 # Odin criou para Thor a mais fiel e poderosa arma possível, o martelo Mjölnir. Feito de um minério místico especial chamado Uru e forjado no coração de uma estrela pelos Deuses ferreiros de Asgard, Brokk e Eitri, os lendários ferreiros.
 # Um dia, Thor desafiou seus amigos para ver quem conseguia levantar o Mjölnir.

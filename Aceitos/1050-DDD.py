@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1050
+# https://www.beecrowd.com.br/judge/pt/problems/view/1050
 
 # Leia um número inteiro que representa um código de DDD para discagem interurbana. Em seguida, informe à qual cidade o DDD pertence, considerando a tabela abaixo:
 # https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1050.png

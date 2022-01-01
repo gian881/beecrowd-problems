@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/2164
+# https://www.beecrowd.com.br/judge/pt/problems/view/2164
 
 # A fórmula de Binet é uma forma de calcular números de Fibonacci.
 # https://resources.urionlinejudge.com.br/gallery/images/contests/944.png
