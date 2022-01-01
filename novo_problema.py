@@ -18,7 +18,7 @@ def write_paragrafo(file: TextIO, textos: list[str]):
             paragrafos = [paragrafo.strip() for paragrafo in text.split('\n')]
             for paragrafo in paragrafos:
                 if paragrafo == '':
-                    file.write(f'\n')
+                    file.write('\n')
                 else:
                     file.write(f'# {paragrafo}\n')
         else:
@@ -35,7 +35,7 @@ class Problema:
     def __init__(self, problem_number) -> None:
         add_log('Fazendo request.')
         self.soup = BeautifulSoup(requests.get(
-            f'https://www.urionlinejudge.com.br/repository/UOJ_{problem_number}.html').content, 'html.parser')
+            f'https://www.beecrowd.com.br/repository/UOJ_{problem_number}.html').content, 'html.parser')
         self.titulo = self.get_titulo()
         self.descricao = self.get_lista_de_paragrafos('description')
         self.entrada = self.get_lista_de_paragrafos('input')
@@ -65,7 +65,7 @@ class Problema:
 
     def write_descricao(self, file: TextIO) -> None:
         file.write(
-            f'# https://www.urionlinejudge.com.br/judge/pt/problems/view/{self.number}\n\n')
+            f'# https://www.beecrowd.com.br/judge/pt/problems/view/{self.number}\n\n')
         write_paragrafo(file, self.descricao)
         file.write('\n')
         file.write('# Entrada\n')
