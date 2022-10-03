@@ -1,5 +1,5 @@
-from typing import Text, TextIO
-import requests
+from typing import TextIO
+import cloudscraper
 import bs4
 from bs4 import BeautifulSoup
 from unidecode import unidecode
@@ -34,13 +34,15 @@ class Problema:
 
     def __init__(self, problem_number) -> None:
         add_log('Fazendo request.')
-        self.soup = BeautifulSoup(requests.get(
+        scraper: cloudscraper.CloudScraper = cloudscraper.create_scraper()
+        self.soup = BeautifulSoup(scraper.get(
             f'https://www.beecrowd.com.br/repository/UOJ_{problem_number}.html').content, 'html.parser')
         self.titulo = self.get_titulo()
         self.descricao = self.get_lista_de_paragrafos('description')
         self.entrada = self.get_lista_de_paragrafos('input')
         self.saida = self.get_lista_de_paragrafos('output')
         self.number = problem_number
+        print(self.soup)
 
     def get_titulo(self) -> str:
         title: str = self.soup.find('h1').get_text().replace(
@@ -50,12 +52,15 @@ class Problema:
     def get_lista_de_paragrafos(self, classe: str) -> list[str]:
         paragrafos_tag = self.soup.find('div', {'class': classe})
         paragrafos: list[str] = []
-        for tag in paragrafos_tag:
-            if isinstance(tag, bs4.element.Tag):
-                if tag.find('img'):
-                    paragrafos.append(tag.find('img')['src'].strip())
-                elif tag.get_text().strip() != '':
-                    paragrafos.append(tag.get_text().strip())
+
+        if paragrafos_tag is not None:
+            for tag in paragrafos_tag:
+                if isinstance(tag, bs4.element.Tag):
+                    if tag.find('img'):
+                        paragrafos.append(tag.find('img')['src'].strip())
+                    elif tag.get_text().strip() != '':
+                        paragrafos.append(tag.get_text().strip())
+
         return paragrafos
 
     def write_end_of_file(self, file: TextIO) -> None:
