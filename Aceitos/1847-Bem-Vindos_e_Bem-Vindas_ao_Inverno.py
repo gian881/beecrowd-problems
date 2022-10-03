@@ -56,6 +56,7 @@ def avaliar_temperaturas(temperaturas: list[int]) -> bool:
         # Temperatura desceu menos do segundo pro terceiro do que do primeiro pro segundo
         if modulo(temp3 - temp2) < modulo(temp2 - temp1):
             return True
+    return True
 
 
 def main() -> None:
