@@ -1,4 +1,4 @@
-# https://www.urionlinejudge.com.br/judge/pt/problems/view/1061
+# https://www.beecrowd.com.br/judge/pt/problems/view/1061
 
 # Pedrinho está organizando um evento em sua Universidade. O evento deverá ser no mês de Abril, iniciando e terminando dentro do mês. O problema é que Pedrinho quer calcular o tempo que o evento vai durar, uma vez que ele sabe quando inicia e quando termina o evento.
 # Sabendo que o evento pode durar de poucos segundos a vários dias, você deverá ajudar Pedrinho a calcular a duração deste evento.
@@ -17,7 +17,29 @@
 # Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
 
 def main() -> None:
-    pass
+    dia_inicial = int(input().split()[1])
+    hora_inicial, minuto_inicial, segundo_inicial = map(
+        int, input().split(' : '))
+    dia_final = int(input().split()[1])
+    hora_final, minuto_final, segundo_final = map(int, input().split(' : '))
+
+    dias: int
+    horas: int
+    minutos: int
+    segundos: int
+
+    dias = dia_final - dia_inicial
+    horas = hora_final - hora_inicial
+    if hora_final < hora_inicial:
+        horas = 24 - hora_inicial + hora_final
+        dias -= 1
+    minutos = minuto_final - minuto_inicial
+    segundos = segundo_final - segundo_inicial
+
+    print(f"{dias} dia(s)")
+    print(f"{horas} hora(s)")
+    print(f"{minutos} minuto(s)")
+    print(f"{segundos} segundo(s)")
 
 
 if __name__ == "__main__":
